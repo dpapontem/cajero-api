@@ -5,7 +5,7 @@ from datetime import datetime
 
 # se crea las clase
 
-class TransactiionIn(BaseModel):
+class TransactionIn(BaseModel):
 
     username: str
     value: int
