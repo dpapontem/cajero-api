@@ -1,5 +1,3 @@
-
-
 from pydantic import BaseModel
 
 # crea la s clases con sus atributos.
@@ -14,6 +12,7 @@ class UserOut(BaseModel):
 
     username: str
     balance: int
+
 
 
 

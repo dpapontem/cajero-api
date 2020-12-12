@@ -6,7 +6,7 @@ from db. transaction_db import save_transaction
 
 from models.user_models import UserIn, UserOut
 
-from models.transaction_models import TransactiionIn, TransactionOut
+from models.transaction_models import TransactionIn, TransactionOut
 
 # importa paquetes.
 
@@ -57,7 +57,7 @@ async def get_balance(username: str):
 
 @api.put("/user/transaction")
 
-async def make_transaction(transaction_in: TransactiionIn):
+async def make_transaction(transaction_in: TransactionIn):
 
     user_in_db = get_user(transaction_in.username)
 

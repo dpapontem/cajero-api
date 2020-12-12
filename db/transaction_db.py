@@ -1,4 +1,8 @@
 
+from datetime import datetime 
+from pydantic import BaseModel 
+
+
 # esta creando las clases con sus tributos con su respectivo tipo de dato.
 
 class TransactionInDB(BaseModel):
